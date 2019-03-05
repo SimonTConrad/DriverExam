@@ -4,25 +4,34 @@ public class DriverExam
 	
 	
 	private char[] correctAnswers;
-	private char[] studentAnswers;
 	
 	
-	public DriverExam()
+	
+	public DriverExam(char[] c)
 	{
-	return;
+		correctAnswers = c;
 	}
-	public int totalCorrect()
+	public int passed(char[]studentAnswers)
 	{
 		return 0;
+	}
+	public int totalCorrect(char[]studentAnswers)
+	{
 		
-	}
-	
-	public int totalIncorrect()
+		int correct = 0;//create an int counter
+		
+		for(int i = 0; i<correctAnswers.length; i++) //write a loop and compare student ans to correct ans
+		{
+			
+			
+		}
+		return 0;
+	}	
+	public int totalIncorrect(char[]studentAnswers)
 	{
 		return 0;
 	}
-	
-	public int questionsMissed()
+	public int questionsMissed(char[]studentAnswers)
 	{
 		return 0;
 	}
