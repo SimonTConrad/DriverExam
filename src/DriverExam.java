@@ -1,26 +1,36 @@
 
 public class DriverExam 
 {
-
+	
 	
 	private char[] correctAnswers;
 	private char[] studentAnswers;
-	private int totalCorrect;
-	private int totalIncorrect;
-	private int questionsMissed;
+	
 	
 	public DriverExam()
 	{
+	return;
+	}
+	public int totalCorrect()
+	{
+		return 0;
+		
+	}
 	
+	public int totalIncorrect()
+	{
+		return 0;
+	}
+	
+	public int questionsMissed()
+	{
+		return 0;
 	}
 	
 	
 	
 		
-		
-		
-		
-
 	
-
+	
+	
 }
